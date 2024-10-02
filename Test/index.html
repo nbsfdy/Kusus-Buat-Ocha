@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mau Minta Maaf!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="mainTitle">Dia Mau Minta Maaf 😔</h1>
+        <button id="apologizeButton">Minta maaf? Maksudnya?</button>
+        
+        <div id="responseButtons" style="display: none;">
+            <p>Hai Rosyada,eh Ocha ya maunya kalo aku yang manggil...</p>
+            <p>Disini Mamba mau minta maaf, kamu mau nggak maafin Mamba?</p>
+            <button id="yesButton">Heem, Maafin deh!</button>
+            <button id="noButton">Nggak, dia gak bisa dimaafin!!</button>
+        </div>
+        
+        <p id="message"></p>
+        
+        <div id="reasonInputContainer" style="display: none;">
+            <label for="reasonInput">kamu mau dia ngapain? dia bakal lakuin apaaa aja buat kamu!</label>
+            <textarea id="reasonInput" rows="4" cols="50" placeholder="Suruh dia beliin kamu Tiket nonton lagi aja!"></textarea>
+            <button id="submitReasonButton">Kasihin ke Dia!</button>
+        </div>
+        
+        <p id="thankYouMessage" style="display: none;">Makasih!! Dia bakal ngelakuin hal itu, Insyallah! 🎉</p>
+        <p id="finalThankYouMessage" style="display: none; color: rgb(255, 0, 200);"></p>
+
+        <footer>
+            <p>&copy; 2024 Aplikasi Minta Maaf. Semua hak dilindungi.</p>
+        </footer>
+    </div>
+    <audio id="apologySound" src="202409092301.mp4" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
